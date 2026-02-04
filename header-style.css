@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: static;
     flex-wrap: nowrap;
     min-height: 76px;
     margin: 0;

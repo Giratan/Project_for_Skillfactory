@@ -1,0 +1,32 @@
+main{
+    margin: 0;
+    padding: 0;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.top__secion{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    width: 100%;
+}
+
+[class^="bottom__secion_layer"]{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    width: 100%;
+}
+
+.top__content_filling_image{
+    width: 100%;;
+}
+
+article{
+    min-width: calc();
+}
