@@ -7,7 +7,7 @@ if(userOld > 18 && userOld <= 21){indicator = 2};
 if(userOld > 21 && userOld <= 35){indicator = 3};
 if(userOld > 35 && userOld <= 65){indicator = 4};
 
-const number;
+let number;
 
 switch(indicator){
     case 1:

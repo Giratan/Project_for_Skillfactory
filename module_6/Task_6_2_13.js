@@ -3,5 +3,5 @@ let number = 1;
 
 while(number <= 10){
     sum += number;
-    number +=1;
+    number++;
 }
