@@ -71,6 +71,14 @@
         gap: 40px;
     }
 
+    .content__secion_first-level{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content__secion_second-level{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media screen and (min-width: 414px) and (max-width: 767px){
@@ -100,6 +108,14 @@
 
     .footer__top-level_right-position_social{
         gap: 20px;
+    }
+
+    .content__secion_first-level{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content__secion_second-level{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -135,6 +151,14 @@
 
     .header__button, .header__navbar{
         display: none;
+    }
+
+    .content__secion_first-level{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content__secion_second-level{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
